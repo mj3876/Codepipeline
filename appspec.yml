@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-  - source: output/index.html
-    destination: /var/www/html/
+  - source: output/index.html #source: 옮길 파일 경로
+    destination: /var/www/html/ #옮기는 파일 경로
 
 hooks:
   AfterInstall:
