@@ -9,7 +9,7 @@ phases:
     commands:
       - echo "Build phase"
       - mkdir -p output
-      - cp Portal.html output/
+      - cp portal.html output/
 
       # CodeDeploy 파일 포함
       - cp appspec.yml .
