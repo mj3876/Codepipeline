@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: output/portal.html
-    destination: /var/www/html/index.html
+    destination: /var/www/html/index.nginx-debian.html
 
 hooks:
   AfterInstall:
