@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-  - source: output/Portal.html
-    destination: /var/www/html/
+  - source: output/portal.html
+    destination: /var/www/html/index.html
 
 hooks:
   AfterInstall:
