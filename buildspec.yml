@@ -9,8 +9,8 @@ phases:
     commands:
       - echo "Build phase"
       - mkdir -p output
-      - cp portal.html index.html
-      - cp index.html output/
+      - cp portal.html index.html #portal.html을 index.html 파일로 복사
+      - cp index.html output/ #index.html 파일을 output/폴더로 복사
 
       # CodeDeploy 파일 포함
       - mkdir -p scripts
