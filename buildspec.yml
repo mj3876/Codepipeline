@@ -8,13 +8,12 @@ phases:
   build:
     commands:
       - echo "Build phase"
-      - ls -la          # 현재 디렉토리 파일 목록 확인
       - mkdir -p output
-      - cp portal.html output/
+      - cp Portal.html output/
 
       # CodeDeploy 파일 포함
       - mkdir -p scripts
-
+      - cp restart.sh scripts/
   post_build:
     commands:
       - echo "Post build phase"
