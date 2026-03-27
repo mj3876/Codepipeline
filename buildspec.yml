@@ -13,7 +13,6 @@ phases:
       - cp portal.html output/
 
       # CodeDeploy 파일 포함
-      - cp appspec.yml .
       - mkdir -p scripts
       - cp scripts/restart.sh scripts/
 
